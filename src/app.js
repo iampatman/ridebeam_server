@@ -12,12 +12,12 @@ const config = {
 };
 var defaultApp = firebase.initializeApp(config);
 var database = firebase.database();
-database.ref('/123123').set({
-  long: 1,
-  lat: 2,
-  battery: 100,
-  status: 1
-});
+// database.ref('/123123').set({
+//   long: 1,
+//   lat: 2,
+//   battery: 100,
+//   status: 1
+// });
 
 function toRad (Value) {
   return Value * Math.PI / 180;
